@@ -1,0 +1,39 @@
+#content>aside {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 35%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#content>aside>div>h3,
+#content>aside>div>div>h3 {
+    padding-bottom: 25px;
+}
+
+#content>aside>:first-child {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+
+#content>aside>:first-child>div {
+    max-width: 50%;
+}
+
+#content>aside>div {
+    border: var(--border-width) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+
+    margin-bottom: 15px;
+    padding: 25px;
+    padding-top: 0px;
+    background-color: var(--card-background-color);
+}
+
+#content>aside>#network>div>* {
+    display: inline-block;
+}
