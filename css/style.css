@@ -1,0 +1,29 @@
+@media screen {
+    html {
+        filter: invert(1);
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--background-color);
+
+    min-height: 100vh;
+    font-family: VarelaRound;
+}
+
+header {
+    max-height: fit-content;
+    max-width: 100%;
+
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+#content {
+    display: flex;
+}

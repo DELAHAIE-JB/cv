@@ -1,0 +1,12 @@
+:root {
+    --background-color: white;
+    --card-background-color: rgb(200, 200, 200, 0.75); 
+    --font-color: black;
+    --border-color: var(--font-color);
+    --border-width: 2px;
+    --border-style: solid;
+    --border-radius: 16px;
+    --title-color: darkslategray;
+    --title-h2-color: var(--font-color);
+    --smaller-title-color: gray;
+}
