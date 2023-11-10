@@ -1,6 +1,6 @@
 # cv
 
-# [Page Github.io](https://JB-DELAHAIE.github.io/cv) | [PDF](https://github.com/JB-DELAHAIE/cv/raw/main/pdf.pdf)  
+# [Page Github.io](https://JB-DELAHAIE.github.io/cv) | [PDF](https://github.com/JB-DELAHAIE/cv/raw/main/cv.pdf) | [PDF black theme](https://github.com/JB-DELAHAIE/cv/raw/main/cv-black.pdf)  
   
 ![](https://img.shields.io/github/commit-activity/m/JB-DELAHAIE/cv?color=red&style=for-the-badge)  
 ![](https://img.shields.io/github/last-commit/JB-DELAHAIE/cv?color=red&style=for-the-badge)  
