@@ -1,6 +1,26 @@
 @font-face {
     font-family: VarelaRound;
-    src: url(/VarelaRound-Regular.ttf);
+    src: url(./VarelaRound-Regular.ttf);
+}
+
+.theme-svg {
+    max-width: 25px;
+    padding: 10px;
+}
+
+#theme {
+    max-width: fit-content;
+    border-color: var(--border-color);
+    border-radius: var(--border-radius);
+    border-width: var(--border-width);
+    border-style: solid;
+
+    background-color: var(--card-background-color);
+    box-shadow: var(--box-shadow);
+
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
 }
 
 .theme-svg {
