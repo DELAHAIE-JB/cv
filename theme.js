@@ -40,11 +40,11 @@ async function setIconTheme() {
     var img = themeButton.children[0];
 
     if (localStorage.getItem('theme') === 'dark') {
-        img.src = "/images/sun.svg";
+        img.src = "./images/sun.svg";
     }
     else if (localStorage.getItem('theme') === 'day') {
-        img.src = "/images/light.svg";
+        img.src = "./images/light.svg";
     }
 
-    else { img.src = "/images/settings.svg"; }
+    else { img.src = "./images/settings.svg"; }
 }
