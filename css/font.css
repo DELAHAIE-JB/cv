@@ -88,7 +88,15 @@ h3 {
     font-size: 25px;
     color: var(--smaller-title-color);
     text-transform: uppercase;
+}
 
+h3 {
+    text-align: center;
+}
+
+#liens>h3,
+#contact>h3 {
+    text-align: start !important;
 }
 
 h4 {
