@@ -49,6 +49,10 @@
     padding-top: 35px;
 }
 
+/*
+
+Cards sur chaque Diplômes / Expériences
+
 #content>div>div>div {
     border: var(--border-width) var(--border-style) var(--border-color);
     border-radius: var(--border-radius);
@@ -59,4 +63,11 @@
 
     background-color: var(--card-background-color);
     box-shadow: var(--box-shadow);
+}*/
+
+/* sans cards sur chaque */
+#content>div>div>div {
+    margin-bottom: 15px;
+    padding: 25px;
+    padding-top: 0px;
 }
