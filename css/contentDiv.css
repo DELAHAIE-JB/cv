@@ -41,7 +41,7 @@
 }
 
 #content>div>div>div:not(:last-child) {
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 
@@ -67,7 +67,5 @@ Cards sur chaque Diplômes / Expériences
 
 /* sans cards sur chaque */
 #content>div>div>div {
-    margin-bottom: 15px;
-    padding: 25px;
-    padding-top: 0px;
+    margin-bottom: 5px;
 }
