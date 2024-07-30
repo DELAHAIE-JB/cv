@@ -21,15 +21,14 @@
 }
 
 #content>aside>:first-child>div {
-    max-width: 50%;
-}
+} 
 
 #content>aside>div {
     border: var(--border-width) var(--border-style) var(--border-color);
     border-radius: var(--border-radius);
 
     margin-bottom: 15px;
-    padding: 25px;
+    padding: 15px;
     padding-top: 0px;
     background-color: var(--card-background-color);
     box-shadow: var(--box-shadow);
@@ -38,3 +37,5 @@
 #content>aside>#network>div>* {
     display: inline-block;
 }
+
+#profil>p:not(:last-child){margin-bottom:20px;}
