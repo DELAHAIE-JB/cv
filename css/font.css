@@ -70,7 +70,8 @@
 }
 
 a {
-    color: var(--title-color)
+    font-size: 20px;
+    color: var(--link-color);
 }
 
 h1 {
@@ -86,7 +87,7 @@ h2 {
 
 h3 {
     font-size: 25px;
-    color: var(--orange-yellow-crayola);
+    color: var(--sub-title-color);
     text-transform: uppercase;
 }
 
@@ -103,7 +104,7 @@ h4 {
     text-decoration: underline;
     text-decoration-skip: object;
     font-size: 20px;
-    color: var(--orange-yellow-crayola);
+    color: var(--sub-title-color);
     text-transform: capitalize;
 }
 
@@ -116,8 +117,4 @@ h5 {
 p {
     font-size: 20px;
     color: var(--font-color);
-}
-
-.small {
-    font-size: 15px;
 }
