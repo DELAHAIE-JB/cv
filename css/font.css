@@ -3,12 +3,7 @@
     src: url(./VarelaRound-Regular.ttf);
 }
 
-.theme-svg {
-    max-width: 25px;
-    padding: 10px;
-}
-
-#theme {
+#theme, #print, #download {
     max-width: fit-content;
     border-color: var(--border-color);
     border-radius: var(--border-radius);
@@ -19,28 +14,24 @@
     box-shadow: var(--box-shadow);
 
     position: absolute;
-    right: 2vw;
+}
+
+#theme{
+    right: 25px;
+    top: 2vh;
+}
+#print{
+    right: 100px;
+    top: 2vh;
+}
+#download{
+    right: 175px;
     top: 2vh;
 }
 
-.theme-svg {
+.theme-svg, .print-svg, .download-svg {
     max-width: 25px;
     padding: 10px;
-}
-
-#theme {
-    max-width: fit-content;
-    border-color: var(--border-color);
-    border-radius: var(--border-radius);
-    border-width: var(--border-width);
-    border-style: solid;
-
-    background-color: var(--card-background-color);
-    box-shadow: var(--box-shadow);
-
-    position: absolute;
-    right: 2vw;
-    top: 2vh;
 }
 
 .svg,
@@ -65,7 +56,9 @@
 .svg,
 .svg-block,
 .svg-small,
-.theme-svg {
+.theme-svg,
+.print-svg,
+.download-svg {
     filter: var(--svg-filter);
 }
 
