@@ -9,7 +9,7 @@ function GetPDFName() {
 
 function triggerDownload() {
     let element = document.createElement('a');
-    element.setAttribute('href', '/' + GetPDFName());
+    element.setAttribute('href', 'https://github.com/DELAHAIE-JB/cv/raw/main/' + GetPDFName());
     element.setAttribute('download', GetPDFName());
     element.style.display = 'none';
 
