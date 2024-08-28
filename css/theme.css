@@ -32,12 +32,24 @@
     --link-color: var(--sub-title-color);
 }
 
-#theme {
+#theme, #print, #download {
     display: none !important;
 }
 
 @media screen {
-    #theme {
+    #theme, #print, #download {
         display: block !important;
+    }
+}
+
+@media print{
+    @page{
+        size: A4 portrait;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        zoom:60%;
     }
 }

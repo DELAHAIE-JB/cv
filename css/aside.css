@@ -18,7 +18,17 @@
     gap: 5px;
 }
 
-#content>aside>:first-child>div {
+#content>aside>:first-child>#liens>a,
+#content>aside>:first-child>#contact>a,
+#content>aside>:first-child>#contact>p {
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    
+    gap: 5px;
 } 
 
 #content>aside>div {
