@@ -8,9 +8,9 @@
     border: var(--border-width) var(--border-style) var(--border-color);
     border-radius: var(--border-radius);
 
-    padding-bottom: 25px;
-    margin-bottom: 15px;
-    padding: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
     padding-top: 0px;
 
     background-color: var(--card-background-color);
@@ -46,7 +46,7 @@
 
 
 #content>div>#experiences {
-    padding-top: 35px;
+    padding-top: 10px;
 }
 
 /*
