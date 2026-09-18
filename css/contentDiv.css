@@ -69,3 +69,11 @@ Cards sur chaque Diplômes / Expériences
 #content>div>div>div {
     margin-bottom: 5px;
 }
+
+#langues > div :first-child {
+    float: left;
+}
+
+#langues > div :last-child {
+    float: right;
+}
